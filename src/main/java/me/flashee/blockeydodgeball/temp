@@ -1,0 +1,61 @@
+courts:
+    1:
+        name: 'Red Court'
+        shortName: 'RED'
+        color: '§c'
+        x1: 4
+        y1: 7
+        z1: -91
+        x2: 56
+        y2: 100
+        z2: -57
+    2:
+        name: 'Green Court'
+        shortName: 'GREEN'
+        color: '§a'
+        x1: 4
+        y1: 7
+        z1: -56
+        x2: 56
+        y2: 100
+        z2: -22
+    3:
+        name: 'Blue Court'
+        shortName: 'BLUE'
+        color: '§9'
+        x1: 4
+        y1: 7
+        z1: -21
+        x2: 56
+        y2: 100
+        z2: 13
+    4:
+        name: 'Orange Court'
+        shortName: 'ORANGE'
+        color: '§6'
+        x1: 4
+        y1: 7
+        z1: 14
+        x2: 56
+        y2: 100
+        z2: 48
+    5:
+        name: 'Cyan Court'
+        shortName: 'CYAN'
+        color: '§3'
+        x1: 4
+        y1: 7
+        z1: 49
+        x2: 56
+        y2: 100
+        z2: 83
+    6:
+        name: 'Purple Court'
+        shortName: 'PURPLE'
+        color: '§d'
+        x1: 4
+        y1: 7
+        z1: 84
+        x2: 56
+        y2: 100
+        z2: 118

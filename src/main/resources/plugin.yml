@@ -1,0 +1,6 @@
+name: BlockeyDodgeball
+version: ${project.version}
+main: me.flashee.blockeydodgeball.BlockeyDodgeball
+api-version: 1.16
+authors: [ Flashee ]
+description: Dodgeball in Minecraft
