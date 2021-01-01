@@ -1,6 +1,7 @@
 package me.flashee.blockeydodgeball.DodgeballCourt;
 
 import me.flashee.blockeydodgeball.BlockeyDodgeball;
+import me.flashee.blockeydodgeball.DodgeballBall.DodgeballBallManager;
 import me.flashee.blockeydodgeball.DodgeballPlayer.DodgeballPlayerManager;
 import org.bukkit.Bukkit;
 import org.bukkit.Location;
@@ -11,6 +12,7 @@ public class DodgeballCourt {
     private BlockeyDodgeball plugin;
 
     private DodgeballPlayerManager dodgeballPlayerManager;
+    private DodgeballBallManager dodgeballBallManager;
 
     private String name;
     private String color;
@@ -25,6 +27,7 @@ public class DodgeballCourt {
     // constructor
     public DodgeballCourt(String name, String color, String loc1, String loc2, String mid1, String mid2, BlockeyDodgeball plugin) {
         this.dodgeballPlayerManager = new DodgeballPlayerManager(plugin);
+        this.dodgeballBallManager = new DodgeballBallManager(plugin);
         this.name = name;
         this.color = color;
         this.loc1 = stringToLocation(loc1);

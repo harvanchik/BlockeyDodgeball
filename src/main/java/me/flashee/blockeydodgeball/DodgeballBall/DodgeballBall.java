@@ -1,10 +1,13 @@
-package me.flashee.blockeydodgeball;
+package me.flashee.blockeydodgeball.DodgeballBall;
 
+import me.flashee.blockeydodgeball.BlockeyDodgeball;
 import org.bukkit.entity.Item;
 import org.bukkit.entity.Player;
 import org.bukkit.entity.Snowball;
 
-public class Dodgeball {
+public class DodgeballBall {
+
+    BlockeyDodgeball plugin;
 
     private String color;
 
@@ -14,8 +17,8 @@ public class Dodgeball {
     private Player dodgeballThrower;
 
     // constructor
-    public Dodgeball(String color) {
-        this.color = color;
+    public DodgeballBall(BlockeyDodgeball plugin) {
+        this.plugin = plugin;
         throwDodgeball();
     }
 
